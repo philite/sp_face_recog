@@ -4,4 +4,5 @@ from src import webcamstream
 
 webcam = webcamstream.WebCam()
 
-webcam.start()
+#webcam.start()
+webcam.save()
