@@ -2,6 +2,7 @@
 import sys
 import dlib
 import scipy
+import cv2
 
 detector = dlib.get_frontal_face_detector()
 win = dlib.image_window()
@@ -9,7 +10,7 @@ path = ""
 if len(sys.argv) >= 1:
     for f in sys.argv[1:]:
         print('Processing image {}'.format(f))
-        img = dlib.load_rgb_image(f)
+        img = cv2.readim(f)
         dets = detector(img, 1)
         print('Number of faces detected: {}'.format(len(dets)))
         for i, d in enumerate(dets):
