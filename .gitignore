@@ -1,3 +1,4 @@
 .vscode/*
 .vscode/settings.json
-utils/test.MKV
+utils/test.mp4
+utils/data/*
