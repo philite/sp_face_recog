@@ -2,7 +2,7 @@ import dlib
 class Face(object):
     def __init__(self):
             self.detector = dlib.get_frontal_face_detector()
-            self.win = dlib.inmage_indow()
+            self.win = dlib.image_window()
 
     def detect(self, file_):
         self.file = file_
