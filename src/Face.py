@@ -14,7 +14,7 @@ class Face(object):
             self.win.clear_overlay()
             self.win.set_image(img)
             self.win.set_title('Number of faces detected: {}'.format(len(dets)))
-            self.win.add_overlay(dets, color=dlib.rgb_pixel(255, 255, 0))
+            self.win.add_overlay(dets, color=dlib.rgb_pixel(0, 0, 255), )
             dlib.hit_enter_to_continue()
 
 if __name__ == '__main__':

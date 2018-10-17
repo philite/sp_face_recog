@@ -7,4 +7,4 @@ from src import webcamstream , Face
 #webcam.start()
 #webcam.save()
 face = Face.Face()
-face.detect(['data/test.jpg'])
+face.detect(['data/test2.jpg', 'data/test.jpg'])
