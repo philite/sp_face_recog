@@ -1,4 +1,5 @@
-.vscode/*
+.vscode
 .vscode/settings.json
 utils/test.mp4
 utils/data/*
+src/__pycache__
