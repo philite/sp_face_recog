@@ -5,4 +5,8 @@
 - OpenCV2
 - numpy
 
+## Todo
+- CNN with Tensorflow
+- Datasets and possibly autocrop?
+
 ### (c) this git is copyrighted!
